@@ -22,14 +22,14 @@ so there is no need to assign the specific images from the pool to the layout vi
 --Configuration
 
 --Numbers of Groups you want to use
-local grpNum = {1,2,3,4,5,6}
+local grpNum = {1,16,32,48,64,33}
 
-local macStart = 1001
-local seqStart = 1001
-local startingPg = 500
+local macStart = 300
+local seqStart = 300
+local startingPg = 21
 local startingFader = 101
 --layout view config
-local layoutView = 1
+local layoutView = 7
 local layoutName = 'Colorpicker'
 local spacing = 0.1
 --image config
